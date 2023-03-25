@@ -1,10 +1,8 @@
 <script>
-	import Button from "../button.svelte";
-
+	import Score from "../components/score.svelte";
+	import Question from "../components/question.svelte";
 </script>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<a href="/about">Go to my about page</a>
 
+<Score score={14} />
 
-<Button>Mr. Bonner</Button>
+<Question></Question>
